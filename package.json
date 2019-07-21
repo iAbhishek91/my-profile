@@ -1,0 +1,16 @@
+{
+  "name": "my-profile",
+  "version": "0.0.1",
+  "description": "This repo speaks about me and my work",
+  "main": "index.js",
+  "repository": "git@github.com:iAbhishek91/my-profile.git",
+  "author": "Abhishek Das <abhi.das2007das@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://iAbhishek91.github.io/my-profile",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
