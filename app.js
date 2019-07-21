@@ -45,4 +45,4 @@ function (_React$Component) {
   return MyComponent;
 }(_react["default"].Component);
 
-ReactDOM.render(_react["default"].createElement(MyComponent, null), document.getElementById('root'));
+_reactDom["default"].render(_react["default"].createElement(MyComponent, null), document.getElementById('root'));
