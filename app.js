@@ -45,4 +45,4 @@ function (_React$Component) {
   return MyComponent;
 }(_react["default"].Component);
 
-ReactDOM.render(MyComponent, 'root');
+ReactDOM.render(MyComponent, document.getElementById('root'));
