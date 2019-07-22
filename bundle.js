@@ -94,7 +94,19 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nfunction _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nvar MyComponent = function MyComponent() {\n  return _react[\"default\"].createElement(\"h1\", null, \"Abhishek welcomes you\");\n};\n\n_reactDom[\"default\"].render(_react[\"default\"].createElement(MyComponent, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./dist/app.js?");
+eval("\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nvar _intro = _interopRequireDefault(__webpack_require__(/*! ./components/intro */ \"./dist/components/intro.js\"));\n\nfunction _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nvar App = function App() {\n  return _react[\"default\"].createElement(\"div\", {\n    className: \"jumbotron text-center\"\n  }, _react[\"default\"].createElement(\"h1\", null, \"Abhishek welcomes you\"), _react[\"default\"].createElement(\"intro\", null));\n};\n\n_reactDom[\"default\"].render(_react[\"default\"].createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./dist/app.js?");
+
+/***/ }),
+
+/***/ "./dist/components/intro.js":
+/*!**********************************!*\
+  !*** ./dist/components/intro.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nfunction _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nvar _default = function _default() {\n  return _react[\"default\"].createElement(\"h3\", null, \"I`&apos`m from intro!\");\n};\n\nexports[\"default\"] = _default;\n\n//# sourceURL=webpack:///./dist/components/intro.js?");
 
 /***/ }),
 
