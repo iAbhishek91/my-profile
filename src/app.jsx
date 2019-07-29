@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Intro from './components/intro';
+// import 'bootstrap';
 
-const MyComponent = () => <h1>Abhishek welcomes you</h1>;
+const App = () => (
+  <div className="jumbotron text-center">
+    <h1>Abhishek welcomes you</h1>
+    <Intro />
+  </div>
+);
 
-ReactDOM.render(<MyComponent />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
