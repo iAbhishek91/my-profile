@@ -6,9 +6,10 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _intro = _interopRequireDefault(require("./components/intro"));
 
+require("bootstrap");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-// import 'bootstrap';
 var App = function App() {
   return _react["default"].createElement("div", {
     className: "jumbotron text-center"
