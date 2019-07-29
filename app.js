@@ -8,6 +8,8 @@ var _intro = _interopRequireDefault(require("./components/intro"));
 
 require("bootstrap");
 
+require("bootstrap/dist/css/bootstrap.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var App = function App() {
