@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Intro from './components/intro';
-// import 'bootstrap';
+import HeadingCard from './components/headingCard';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
-  <div className="jumbotron text-center">
-    <h1>Abhishek welcomes you</h1>
+  <div className="container-fluid">
+    <HeadingCard />
     <Intro />
   </div>
 );
