@@ -1,7 +1,7 @@
 {
   "name": "my-profile",
   "version": "0.0.1",
-  "description": "This repo speaks about me and my work",
+  "description": "My profile",
   "main": "index.js",
   "repository": "git@github.com:iAbhishek91/my-profile.git",
   "author": "Abhishek Das <abhi.das2007das@gmail.com>",
@@ -13,37 +13,9 @@
     "lint": "eslint --ext .jsx,.js ."
   },
   "homepage": "https://github.com/iAbhishek91/my-profile",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "svg-inline-loader": "^0.8.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.2",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.1.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-plugin-react-hooks": "^1.6.1",
-    "extracted-loader": "^1.0.7",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "postcss-loader": "^3.0.0",
-    "style-loader": "^0.23.1",
-    "uglifyjs-webpack-plugin": "^2.1.3",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0"
   }
 }
