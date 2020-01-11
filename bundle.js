@@ -104,7 +104,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-container {\\n  display: grid;\\n  grid-template-columns: 15% auto 20%;\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  width: 100%;\\n}\\n\\n.logo {\\n  height: 40px;\\n  width: 40px;\\n  padding: 5px;\\n  border-radius: 10%;\\n}\\n\\n\\n#dp {\\n  height: 150px;\\n  width: auto;\\n  padding: 5px;\\n  position: relative;\\n}\\n\\n#dp-container {\\n  position: relative;\\n}\\n\\n#dp-border {\\n  position: absolute;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/heading.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-container {\\n  display: grid;\\n  grid-template-columns: 15% auto 20%;\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  width: 100%;\\n}\\n\\n.logo {\\n  height: 40px;\\n  width: 40px;\\n  padding: 5px;\\n}\\n\\n\\n#dp {\\n  height: 150px;\\n  width: auto;\\n  padding: 5px;\\n  border-radius: 10%;\\n  position: relative;\\n}\\n\\n#dp-container {\\n  position: relative;\\n}\\n\\n#dp-border {\\n  position: absolute;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/heading.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -330,7 +330,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"b41e828b99a29811025c22fd188ef531.png\");\n\n//# sourceURL=webpack:///./src/resources/icons/dp.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"8b495a425fd4c6be943aa2341cab8ab3.png\");\n\n//# sourceURL=webpack:///./src/resources/icons/dp.png?");
 
 /***/ }),
 
