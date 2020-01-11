@@ -2,11 +2,12 @@ import React from 'react';
 import linkedln from '../resources/icons/linkedln.png';
 import github from '../resources/icons/github.png';
 import dp from '../resources/icons/dp.png';
+import bg from '../resources/icons/bg.png';
 import '../css/heading.css';
 
 
 export default () => (
-  <div className="header-container">
+  <div className="header-container" style={{ backgroundImage: `url(${bg})` }}>
     <div id="dp-container">
       <img id="dp" src={dp} />
     </div>
@@ -30,11 +31,10 @@ export default () => (
           </tr>
         </tbody>
       </table>
-      <h3 className="lead">DevOps Engineer</h3>
+      <h3 id="position">DevOps Engineer</h3>
       <p>
-        Self-motivated full stack developer with more than eight years of experience in software development and operations. Leading and helping the team in delivering high-performance quality software. Experienced and expertise in Agile methodologies.
+        Self-motivated full stack NodeJs developer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high-performance quality software. Experienced and expertise in DevOps practices and Agile methodologies.
       </p>
     </div>
-    <hr className="my-4" />
   </div>
 );

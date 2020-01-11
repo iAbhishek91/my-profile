@@ -1,11 +1,12 @@
 
-.grid-container {
+.header-container {
   display: grid;
-  grid-template-columns: 15% auto 20%;
+  grid-template-columns: auto auto;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  border-bottom-color: black
 }
 
 .logo {
@@ -19,9 +20,17 @@
   height: 150px;
   width: auto;
   padding: 5px;
-  position: relative;
 }
 
 #dp-container {
-  position: relative;
+  margin: auto;
+}
+
+#position {
+  color: #666666;
+  font-family: serif
+}
+
+h1 {
+  font-family: initial
 }
