@@ -7,7 +7,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _linkedln = require("../../resources/icons/linkedln.svg");
+var _linkedln = _interopRequireDefault(require("../../resources/icons/linkedln.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -27,7 +27,7 @@ var _default = function _default() {
     viewBox: "0 0 100 100"
   }, _react["default"].createElement("a", {
     href: "https://www.linkedin.com/in/abhishek-das-b2248665/"
-  }, _react["default"].createElement(_linkedln.ReactComponent, null)))));
+  }, _linkedln["default"]))));
 };
 
 exports["default"] = _default;
