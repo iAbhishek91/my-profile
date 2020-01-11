@@ -1,0 +1,27 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% auto 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+
+
+#dp {
+  height: 150px;
+  width: auto;
+  padding: 5px;
+  position: relative;
+}
+
+#dp-container {
+  position: relative;
+}

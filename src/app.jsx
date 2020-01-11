@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import Intro from './components/intro';
-import HeadingCard from './components/headingCard';
+import HeadingCard from './components/heading';
 import './css/bootstrap.min.css';
 
 const App = () => (
-  <div className="container-fluid">
+  <Fragment>
     <HeadingCard />
-    <Intro />
-  </div>
+    <div className="container-fluid">
+      <Intro />
+    </div>
+  </Fragment>
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));
