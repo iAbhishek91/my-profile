@@ -1,3 +1,3 @@
 # Node module used
 
-- popper and jquery is used by bootstrap.
+- popper and jquery is used by bootstrap' peer dependencies.

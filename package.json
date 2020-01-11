@@ -8,9 +8,10 @@
   "license": "UNLICENSED",
   "scripts": {
     "deploy": "gh-pages -d dist",
-    "build": "rm -rf dist && babel src --out-dir dist && cp src/index.html dist/index.html && webpack",
+    "build": "rm -rf dist && webpack && cp src/index.html dist/index.html",
     "build:local": "rm -rf dist && babel src --out-dir dist && cp src/index.html dist/index.html && webpack-dev-server",
-    "lint": "eslint --ext .jsx,.js ."
+    "lint": "eslint --ext .jsx,.js .",
+    "live": "npm run build && npm run deploy"
   },
   "homepage": "https://github.com/iAbhishek91/my-profile",
   "dependencies": {
@@ -30,7 +31,7 @@
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.17.0",
-    "svg-inline-loader": "^0.8.0",
+    "file-loader": "^5.0.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }

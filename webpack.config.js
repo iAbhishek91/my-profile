@@ -21,6 +21,11 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|dist)/,
         loaders: ['babel-loader']
+      },
+      {
+        test: /\.png$/,
+        loader: 'file-loader',
+        
       }
     ]
   },
