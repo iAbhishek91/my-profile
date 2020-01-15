@@ -7,10 +7,7 @@ import HeadingCard from './components/heading';
 const App = () => (
   <div>
     <HeadingCard />
-    <hr />
-    <div>
-      <Body />
-    </div>
+    <Body />
   </div>
 );
 

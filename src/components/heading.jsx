@@ -31,10 +31,7 @@ export default () => (
           </tr>
         </tbody>
       </table>
-      <h3 id="position">DevOps Engineer</h3>
-      <p>
-        Self-motivated full stack NodeJs developer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high-performance quality software. Experienced and expertise in DevOps practices and Agile methodologies.
-      </p>
+      <h3 id="position">DevOps Engineer at Lloyds Banking Group</h3>
     </div>
   </div>
 );

@@ -1,14 +1,12 @@
 
 #header-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 250px auto;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 230px;
-  border-bottom-color: black;
-  border-bottom: 3em;
+  height: 180px;
   background-size: cover;
   overflow: scroll;
 }
@@ -28,7 +26,7 @@
 }
 
 #dp-container {
-  margin: 15px auto auto;
+  margin: 10px auto auto;
 }
 
 #position {
