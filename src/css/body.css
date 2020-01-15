@@ -1,0 +1,27 @@
+#body-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: [zero-zero] 25% [zero-one] 1fr [zero-two];
+  grid-template-rows: [zero-zero] 200px [one-zero] auto [two-zero];
+  top: 230px;
+}
+
+.subheading {
+  grid-column-start: [zero-zero];
+  grid-column-end: [zero-two];
+  grid-row-end: [one-zero];
+}
+
+.body-left {
+  grid-row-start: [one-zero];
+  grid-row-end: [two-zero];
+  grid-column-start: [zero-zero];
+  grid-column-end: [zero-one];
+}
+
+.body-right {
+  grid-row-start: [one-zero];
+  grid-row-end: [two-zero];
+  grid-column-start: [one-zero];
+  grid-column-end: [zero-one];
+}

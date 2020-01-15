@@ -7,7 +7,7 @@ import '../css/heading.css';
 
 
 export default () => (
-  <div className="header-container" style={{ backgroundImage: `url(${bg})` }}>
+  <div id="header-container" style={{ backgroundImage: `url(${bg})` }}>
     <div id="dp-container">
       <img id="dp" src={dp} />
     </div>
