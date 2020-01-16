@@ -4,6 +4,7 @@ import '../css/body.css';
 export default () => (
   <div id="body-container">
     <div className="subheading">
+      <h4>About</h4>
       <p>
         Self-motivated full stack NodeJs developer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high-performance quality software. Experienced and expertise in DevOps practices and Agile methodologies.
       </p>

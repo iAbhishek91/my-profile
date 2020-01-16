@@ -4,6 +4,8 @@
   grid-template-columns: [zero-zero] 25% [zero-one] 1fr [zero-two];
   grid-template-rows: [zero-zero] auto [one-zero] auto [two-zero];
   top: 180px;
+  z-index: 0;
+  margin: 5px;
 }
 
 .subheading {
