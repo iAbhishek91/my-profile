@@ -1,3 +1,7 @@
+body {
+  background-color: #f2f2f2;
+}
+
 #body-container {
   position: relative;
   display: grid;
@@ -6,12 +10,18 @@
   top: 180px;
   z-index: 0;
   margin: 5px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.subheading {
+.about {
   grid-column-start: zero-zero;
   grid-column-end: zero-two;
   grid-row-end: one-zero;
+}
+
+#about-text {
+  border-bottom-style: inset;
+  padding-bottom: 18px;
 }
 
 .body-left {
@@ -24,4 +34,34 @@
   grid-row-start: one-zero;
   grid-column-start: one-zero;
   grid-column-end: zero-one;
+}
+
+.tools-icon {
+  height: 22px;
+  width: 22px;
+  padding: 5px 5px 0px 0px;
+}
+
+#body-container .subheading h4 {
+  margin: 14px auto;
+}
+
+.dot-grey {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #bbb;
+}
+
+.dot-color {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #3399ff;
+}
+
+.body-left p {
+  margin: 4px auto;
 }

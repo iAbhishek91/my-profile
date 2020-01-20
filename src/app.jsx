@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import Body from './components/body';
-import HeadingCard from './components/heading';
+import Body from './components/Body';
+import HeadingCard from './components/Heading';
 // import './css/main.css';
 
 const App = () => (

@@ -9,7 +9,7 @@
   height: 180px;
   background-size: cover;
   background-color: whitesmoke;
-  box-shadow: 2px 0px 20px;;
+  box-shadow: 2px 0px 7px;;
   overflow: scroll;
   z-index: 9;
   margin: 5px;
@@ -42,6 +42,7 @@
   color: #666666;
   font-family: serif;
   margin: 6px;
+  white-space: nowrap;
 }
 
 h1 {
