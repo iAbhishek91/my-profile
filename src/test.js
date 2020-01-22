@@ -1,1 +1,2 @@
-console.log([...Array(9)]);
+let str = '#'.repeat(10);
+console.log(str);

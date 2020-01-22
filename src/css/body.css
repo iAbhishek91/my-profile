@@ -36,6 +36,32 @@ body {
   grid-column-end: zero-one;
 }
 
+@media (max-width: 1000px) {
+  .about {
+    grid-column-start: zero-zero;
+    grid-column-end: zero-two;
+    grid-row-end: one-zero;
+  }
+}
+
+@media (max-width: 1000px) {
+  .body-left {
+    grid-column-start: zero-zero;
+    grid-column-end: zero-two;
+    grid-row-start: one-zero;
+    grid-row-end: two-zero;
+  }
+}
+ 
+@media (max-width: 1000px) {
+  .body-right {
+    grid-row-start: two-zero;
+    grid-column-start: zero-zero;
+    grid-column-end: zero-two;
+  }
+}
+
+
 .tools-icon {
   height: 22px;
   width: 22px;
