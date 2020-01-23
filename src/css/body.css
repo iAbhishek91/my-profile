@@ -36,15 +36,7 @@ body {
   grid-column-end: zero-one;
 }
 
-@media (max-width: 1000px) {
-  .about {
-    grid-column-start: zero-zero;
-    grid-column-end: zero-two;
-    grid-row-end: one-zero;
-  }
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .body-left {
     grid-column-start: zero-zero;
     grid-column-end: zero-two;
@@ -53,7 +45,7 @@ body {
   }
 }
  
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .body-right {
     grid-row-start: two-zero;
     grid-column-start: zero-zero;

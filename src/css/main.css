@@ -1,3 +1,13 @@
+#main-container {
+  padding: 0px 100px;
+}
+
+@media (max-width: 950px) {
+  #main-container {
+    padding: 0px;
+  }
+}
+
 body {
   font-size: 16px;
 }

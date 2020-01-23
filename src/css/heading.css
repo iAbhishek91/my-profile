@@ -49,3 +49,8 @@ h1 {
   font-family: initial;
   margin-bottom: 15px;
 }
+
+
+#header-table {
+  white-space: nowrap;
+}

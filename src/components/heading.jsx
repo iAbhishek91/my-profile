@@ -15,7 +15,7 @@ export default () => (
       <img id="dp" src={dp} />
     </div>
     <div>
-      <table>
+      <table id="header-table">
         <tbody>
           <tr>
             <td>

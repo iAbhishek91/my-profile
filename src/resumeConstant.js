@@ -8,6 +8,8 @@ export const toolsArr = [
   ['Nexus', 8],
   ['Selenium', 8],
   ['Groovy', 5],
-  ['Linux', 5],
+  ['Linux', 3],
   ['AWS', 2],
 ];
+
+export const experince = [];

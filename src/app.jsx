@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import Body from './components/Body';
 import HeadingCard from './components/Heading';
-// import './css/main.css';
+import './css/main.css';
 
 const App = () => (
-  <div>
+  <div id="main-container">
     <HeadingCard />
     <Body />
   </div>
