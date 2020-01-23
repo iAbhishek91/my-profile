@@ -295,7 +295,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__[\"Fragment\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"M Tech\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h5\", null, \"BITS Pilani\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Software Engineering\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"BCA\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h5\", null, \"Bangalore University\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Computer and Mathematics\"))));\n});\n\n//# sourceURL=webpack:///./src/components/Body/Educations.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _resumeConstant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../resumeConstant */ \"./src/resumeConstant.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", null, _resumeConstant__WEBPACK_IMPORTED_MODULE_1__[\"educations\"].map(function (education) {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"strong\", null, \"education[0]\"), \"\\xA0\", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"i\", null, \"education[1]\"), \"education[2]\"));\n  }));\n});\n\n//# sourceURL=webpack:///./src/components/Body/Educations.jsx?");
 
 /***/ }),
 
@@ -480,11 +480,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /*!*******************************!*\
   !*** ./src/resumeConstant.js ***!
   \*******************************/
-/*! exports provided: toolsArr, experince */
+/*! exports provided: toolsArr, educations */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toolsArr\", function() { return toolsArr; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"experince\", function() { return experince; });\nvar toolsArr = [['NodeJS', 8], ['ReactJS', 7], ['ExpressJS', 7], ['Jenkins', 8], ['Ansible', 5], ['Git', 8], ['Nexus', 8], ['Selenium', 8], ['Groovy', 5], ['Linux', 3], ['AWS', 2]];\nvar experince = [];\n\n//# sourceURL=webpack:///./src/resumeConstant.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toolsArr\", function() { return toolsArr; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"educations\", function() { return educations; });\nvar toolsArr = [['NodeJS', 8], ['ReactJS', 7], ['ExpressJS', 7], ['Jenkins', 8], ['Ansible', 5], ['Git', 8], ['Nexus', 8], ['Selenium', 8], ['Groovy', 5], ['Linux', 3], ['AWS', 2]];\nvar educations = [['M Tech', 'BITS Pilani', ' - Software Engineering'], ['BCA', 'Bangalore University', ' - Computer Science & Mathematics']];\n\n//# sourceURL=webpack:///./src/resumeConstant.js?");
 
 /***/ })
 
