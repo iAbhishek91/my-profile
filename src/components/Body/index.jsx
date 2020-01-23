@@ -3,6 +3,7 @@ import '../../css/body.css';
 import tools from '../../resources/icons/tools.png'
 import '../../css/body.css';
 import Tools from './Tools';
+import Educations from './Educations';
 
 export default () => (
   <div id="body-container">
@@ -23,10 +24,7 @@ export default () => (
       <h3>Work Experience</h3>
       <hr />
       <h3>Education</h3>
-      <h5>M Tech</h5><strong>BITS Pilani</strong>
-      <p>Software Engineering</p>
-      <h5>BCA</h5><strong>Bangalore University</strong>
-      <p>Computer and Mathematics</p>
+      <Educations />
       <hr />
       <h3>Projects</h3>
       <hr />

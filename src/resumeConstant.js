@@ -12,4 +12,7 @@ export const toolsArr = [
   ['AWS', 2],
 ];
 
-export const experince = [];
+export const educations = [
+  ['M Tech', 'BITS Pilani', ' - Software Engineering'],
+  ['BCA', 'Bangalore University', ' - Computer Science & Mathematics'],
+];
