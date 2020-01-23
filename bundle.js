@@ -115,7 +115,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#main-container {\\n  padding: 0px 100px;\\n}\\n\\n@media (max-width: 950px) {\\n  #main-container {\\n    padding: 0px;\\n  }\\n}\\n\\nbody {\\n  font-size: 16px;\\n}\\n\\nh1 {\\n  font-size: 250%;\\n}\\n\\n#body-container h2 {\\ncolor: #0067cc;\\nfont-size: 1.8em;\\n}\\n\\np {\\n  font-size: 120%;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"#main-container {\\n  padding: 0px 100px;\\n}\\n\\n@media (max-width: 950px) {\\n  #main-container {\\n    padding: 0px;\\n  }\\n}\\n\\nbody {\\n  font-size: 16px;\\n}\\n\\nh1 {\\n  font-size: 250%;\\n}\\n\\n#body-container h2 {\\n  color: #0067cc;\\n  font-size: 1.6em;\\n}\\n\\np {\\n  font-size: 120%;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
