@@ -16,6 +16,11 @@ h1 {
   font-size: 250%;
 }
 
+#body-container h2 {
+  color: #0067cc;
+  font-size: 1.8em;
+}
+
 p {
   font-size: 120%;
 }

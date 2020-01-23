@@ -8,7 +8,7 @@ import Educations from './Educations';
 export default () => (
   <div id="body-container">
     <div className="about">
-      <h3>About</h3>
+      <h2>About</h2>
       <p id="about-text">
         Self-motivated full stack NodeJs developer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high-performance quality software. Experienced and expertise in DevOps practices and Agile methodologies.
       </p>
@@ -21,16 +21,16 @@ export default () => (
       <hr />
     </div>
     <div className="body-right">
-      <h3>Work Experience</h3>
+      <h2>Work Experience</h2>
       <hr />
-      <h3>Education</h3>
+      <h2>Education</h2>
       <Educations />
       <hr />
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <hr />
-      <h3>Trainings and certifications</h3>
+      <h2>Trainings and certifications</h2>
       <hr />
-      <h3>Achievements</h3>
+      <h2>Achievements</h2>
     </div>
   </div>
 );
