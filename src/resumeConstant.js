@@ -60,3 +60,25 @@ export const educationsArr = [
 export const languagesArr = [
   ['English', 'proficient']
 ];
+
+export const trainingArr = [
+  [
+    'AWS concepts, AWS core',
+    'Linux academy'
+  ],
+  [
+    'Docker, Docker Swarm, Ansible, Advance Javascript, NodeJS, Groovy - beginners to advance',
+    'Udemy',
+  ],
+  [
+    'Agile Edge - Green belt',
+    'Shell Open University'
+  ]
+];
+
+export const achievementArr = [
+  ['Best Agile project', 'European Software Test Award - 2019'],
+  ['Best Test Automation project - functional', 'European Software Test Award - 2019'],
+  ['Outstanding contributor - automation and devops', 'LBG in partnership with Wipro - 2018'],
+  ['Best Team coach', 'Wipro - 2018'],
+];

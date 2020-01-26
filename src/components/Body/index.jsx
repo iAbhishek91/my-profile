@@ -6,6 +6,8 @@ import Educations from './Educations';
 import Languages from './Languages';
 import WorkExperiences from './WorkExperiences';
 import Projects from './Projects';
+import Trainings from './Trainings';
+import Achievements from './Achievements';
 
 export default () => (
   <div id="body-container">
@@ -34,8 +36,10 @@ export default () => (
       <Educations />
       <hr />
       <h2>Trainings and certifications</h2>
+      <Trainings />
       <hr />
       <h2>Achievements</h2>
+      <Achievements />
     </div>
   </div>
 );
