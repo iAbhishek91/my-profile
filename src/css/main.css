@@ -17,10 +17,18 @@ h1 {
 }
 
 #body-container h2 {
-  color: #0067cc;
+  color: #666666;
   font-size: 1.6em;
 }
 
 p {
-  font-size: 120%;
+  font-size: 110%;
+}
+
+ul {
+  padding-inline-start: 15px;
+}
+
+li {
+  list-style-type: circle;
 }

@@ -36,24 +36,6 @@ body {
   grid-column-end: zero-one;
 }
 
-@media (max-width: 700px) {
-  .body-left {
-    grid-column-start: zero-zero;
-    grid-column-end: zero-two;
-    grid-row-start: one-zero;
-    grid-row-end: two-zero;
-  }
-}
- 
-@media (max-width: 700px) {
-  .body-right {
-    grid-row-start: two-zero;
-    grid-column-start: zero-zero;
-    grid-column-end: zero-two;
-  }
-}
-
-
 .tools-icon {
   height: 22px;
   width: 22px;
@@ -80,6 +62,40 @@ body {
   background-color: #3399ff;
 }
 
+
 .body-left p {
   margin: 4px auto;
+}
+
+@media (max-width: 700px) {
+  .body-left {
+    grid-column-start: zero-zero;
+    grid-column-end: zero-two;
+    grid-row-start: one-zero;
+    grid-row-end: two-zero;
+  }
+
+  .body-right {
+    grid-row-start: two-zero;
+    grid-column-start: zero-zero;
+    grid-column-end: zero-two;
+  }
+
+  .dot-grey {
+    height: 9px;
+    width: 9px;
+    margin: 1px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #bbb;
+  }
+  
+  .dot-color {
+    height: 9px;
+    width: 9px;
+    margin: 1px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #3399ff;
+  }
 }

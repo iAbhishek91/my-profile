@@ -3,14 +3,16 @@ import { toolsArr } from '../../resumeConstant';
 import ToolGraph from './ToolGraph';
 
 export default () => {
-  const tools = toolsArr.map((tool) => {
+  const tools = toolsArr.map((tool, i) => {
     return (
-      <p key={tool}>
-        {tool[0]} &nbsp;
-        <ToolGraph strength={tool[1]} />
-      </p>
+      <li key={`tool-${i}`}>
+        <p>
+          <strong>{tool[0]} &nbsp; </strong>
+          <ToolGraph strength={tool[1]} />
+        </p>
+      </li>
     )
   });
 
-  return <div>{tools}</div>;
+  return <ul>{tools}</ul>;
 };

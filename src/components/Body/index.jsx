@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../css/body.css';
-import tools from '../../resources/icons/tools.png'
 import '../../css/body.css';
 import Tools from './Tools';
 import Educations from './Educations';
+import Languages from './Languages';
 
 export default () => (
   <div id="body-container">
@@ -14,10 +14,11 @@ export default () => (
       </p>
     </div>
     <div className="body-left">
-      <img className="tools-icon" src={tools} alt="tools"/><br />
+      <h2>Tools</h2>
       <Tools />
       <hr />
-      <h4>Languages</h4><br /><br />
+      <h2>Languages</h2>
+      <Languages />
       <hr />
     </div>
     <div className="body-right">
