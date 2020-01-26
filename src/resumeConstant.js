@@ -37,7 +37,7 @@ export const projectsArr = [
     'Developed many multi-stage pipelines using code to achieve CI/CD.',
     'Jenkins, Job-DSL, Shell scripts, Groovy, Docker, Maven, Node.JS, SSL, Proxy, Networking, WebHooks, Git',
   ], [
-    'Quality gates development and CI',
+    'Quality gates and CI',
     'Strategized, authored and integrated quality checks to deploy code without manual intervention.\
     Authored functional and API test framework and achieved parallelism.',
     'Jenkins, Docker, NodeJS, Nexus, Linters, Jest, Selenium Webdriver, Selenium grid, JMeter, ZAP, SSL, Proxy, Veracode, Git.'

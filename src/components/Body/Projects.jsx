@@ -10,6 +10,7 @@ export default () => (
             <strong>{ project[0] }</strong>
             <br />
             { project[1] }
+            <br />
             { project[2] && <i>{ project[2] }</i> }
           </p>
         </li>
