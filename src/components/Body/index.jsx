@@ -4,6 +4,7 @@ import '../../css/body.css';
 import Tools from './Tools';
 import Educations from './Educations';
 import Languages from './Languages';
+import WorkExperiences from './WorkExperiences';
 
 export default () => (
   <div id="body-container">
@@ -23,11 +24,12 @@ export default () => (
     </div>
     <div className="body-right">
       <h2>Work Experience</h2>
+      <WorkExperiences />
+      <hr />
+      <h2>Projects</h2>
       <hr />
       <h2>Education</h2>
       <Educations />
-      <hr />
-      <h2>Projects</h2>
       <hr />
       <h2>Trainings and certifications</h2>
       <hr />
