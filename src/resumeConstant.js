@@ -1,4 +1,21 @@
-export const skillsArr = [
+export const FULL_NAME = 'ABHISHEK DAS';
+
+export const ROLE = 'DevOps Engineer at Lloyds Banking Group';
+
+export const ADDRESS = 'London, United Kingdom';
+
+export const PHONE_NUMBER = '+44-7384120201';
+
+export const EMAIL_ADDRESS = 'i.abhishek.dass@gmail.com';
+export const EMAIL_ADDRESS_HREF = 'mailto:i.abhishek.dass@gmail.com?Subject=Hello%20Abhishek';
+
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/abhishek-das-b2248665/';
+
+export const GITHUB_URL = 'https://github.com/iAbhishek91';
+
+export const ABOUT_PARA = 'Self-motivated computer engineer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high performance, high quality software. Experienced and expertise in DevOps practices and Agile methodologies.';
+
+export const SKILLS_ARR = [
   'DevOps',
   'Automation',
   'Cloud',
@@ -10,7 +27,7 @@ export const skillsArr = [
   'Project leader & coach',
 ];
 
-export const toolsArr = [
+export const TOOLS_ARR = [
   ['NodeJS', 9],
   ['ReactJS', 7],
   ['ExpressJS', 7],
@@ -28,14 +45,14 @@ export const toolsArr = [
   ['AWS', 2],
 ];
 
-export const workExperiencesArr = [
+export const WORK_EXPERIENCE_ARR = [
   ['DevOps Engineer', 'May 2019 - Present', 'Lloyds Banking Group', 'London, GB'],
   ['Full-stack Developer', 'May 2017 - Apr 2019', 'Lloyds Banking Group', 'London, GB'],
   ['Senior Software Engineer', 'Feb 2016 - Mar 2017', 'Royal Dutch Shell', 'London, GB'],
   ['Software Engineer', 'Jan 2012 - Jan 2016', 'Wipro Technologies', 'India'],
 ];
 
-export const projectsArr = [
+export const PROJECTS_ARR = [
   [
     'Automation of Nexus and Jenkins',
     'Automated Nexus (from Sonatype) and Jenkins installation and configuration to \
@@ -61,16 +78,16 @@ export const projectsArr = [
   ],
 ];
 
-export const educationsArr = [
+export const EDUCATION_ARR = [
   ['M Tech', 'BITS Pilani', ' - Software Engineering'],
   ['BCA', 'Bangalore University', ' - Computer Science & Mathematics'],
 ];
 
-export const languagesArr = [
+export const LANGUAGES_ARR = [
   ['English', 'proficient']
 ];
 
-export const trainingArr = [
+export const TRAININGS_ARR = [
   [
     'AWS concepts, AWS core',
     'Linux academy'
@@ -85,7 +102,7 @@ export const trainingArr = [
   ]
 ];
 
-export const achievementArr = [
+export const ACHIEVEMENTS_ARR = [
   ['Best Agile project', 'European Software Test Award - 2019'],
   ['Best Test Automation project - functional', 'European Software Test Award - 2019'],
   ['Outstanding contributor - automation and devops', 'LBG in partnership with Wipro - 2018'],

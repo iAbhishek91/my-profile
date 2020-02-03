@@ -1,10 +1,10 @@
 import React from 'react';
-import { projectsArr } from '../../resumeConstant';
+import { PROJECTS_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      projectsArr.map((project, i) => (
+      PROJECTS_ARR.map((project, i) => (
         <li key={`project-${i}`}>
           <p>
             <strong>{ project[0] }</strong>

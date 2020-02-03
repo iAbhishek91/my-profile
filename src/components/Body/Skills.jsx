@@ -1,10 +1,10 @@
 import React from 'react';
-import { skillsArr } from '../../resumeConstant';
+import { SKILLS_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      skillsArr.map((skill, i) => (
+      SKILLS_ARR.map((skill, i) => (
         <li key={`skill-${i}`}>
           <p>{ skill }</p>
         </li>

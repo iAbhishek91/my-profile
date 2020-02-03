@@ -1,10 +1,10 @@
 import React from 'react';
-import { achievementArr } from '../../resumeConstant';
+import { ACHIEVEMENTS_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      achievementArr.map((achievement, i) => (
+      ACHIEVEMENTS_ARR.map((achievement, i) => (
         <li key={`achievement-${i}`}>
           <p>
             <strong>{achievement[0]}</strong> - <i>{ achievement[1] }</i>

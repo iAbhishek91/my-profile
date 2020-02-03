@@ -1,10 +1,10 @@
 import React from 'react';
-import { languagesArr } from '../../resumeConstant';
+import { LANGUAGES_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      languagesArr.map((language, i) => (
+      LANGUAGES_ARR.map((language, i) => (
         <li key={`language-${i}`}>
           <p>
             <strong>{ language[0] }</strong>&nbsp;<i>{ language[1] }</i>

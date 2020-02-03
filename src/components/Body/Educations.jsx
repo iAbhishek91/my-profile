@@ -1,10 +1,10 @@
 import React from 'react';
-import { educationsArr } from '../../resumeConstant';
+import { EDUCATION_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      educationsArr.map((education, i) => (
+      EDUCATION_ARR.map((education, i) => (
         <li key={`education-${i}`}>
           <p>
             <strong>{ education[0] }</strong>&nbsp;<i>{ education[1] }</i>{ education[2] }

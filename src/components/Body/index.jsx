@@ -9,14 +9,13 @@ import WorkExperiences from './WorkExperiences';
 import Projects from './Projects';
 import Trainings from './Trainings';
 import Achievements from './Achievements';
+import { ABOUT_PARA } from '../../resumeConstant';
 
 export default () => (
   <div id="body-container">
     <div className="about">
       <h2>About</h2>
-      <p id="about-text">
-        Self-motivated computer engineer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high performance, high quality software. Experienced and expertise in DevOps practices and Agile methodologies.
-      </p>
+      <p id="about-text">{ ABOUT_PARA }</p>
     </div>
     <div className="body-left">
       <div id="skills" className="resume-section">

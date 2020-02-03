@@ -7,6 +7,16 @@ import pin from '../resources/icons/pin.png';
 import call from '../resources/icons/call.png';
 import mail from '../resources/icons/mail.png';
 import '../css/heading.css';
+import {
+  FULL_NAME,
+  ROLE,
+  ADDRESS,
+  PHONE_NUMBER,
+  EMAIL_ADDRESS,
+  EMAIL_ADDRESS_HREF,
+  LINKEDIN_URL,
+  GITHUB_URL,
+} from '../resumeConstant';
 
 
 export default () => (
@@ -19,29 +29,29 @@ export default () => (
         <tbody>
           <tr>
             <td>
-              <h1>ABHISHEK DAS &nbsp;&nbsp;</h1>
+              <h1>{ FULL_NAME } &nbsp;&nbsp;</h1>
             </td>
             <td>
-              <a href="https://www.linkedin.com/in/abhishek-das-b2248665/">
+              <a href={ LINKEDIN_URL }>
                 <img className="logo" src={linkedln} alt="linkedln" />
               </a>
             </td>
             <td>
-              <a href="https://github.com/iAbhishek91">
+              <a href={ GITHUB_URL}>
                 <img className="logo" src={github} alt="github" />
               </a>
             </td>
           </tr>
         </tbody>
       </table>
-      <h3 className="subHeading">DevOps Engineer at Lloyds Banking Group</h3>
+      <h3 className="subHeading">{ ROLE }</h3>
       <p className="subHeading">
-        <img className="contact-icons" src={pin} /> London, United Kingdom
+        <img className="contact-icons" src={pin} /> { ADDRESS }
       </p>
       <p className="subHeading">
-        <img className="contact-icons" src={call} /> +44-7384120201 &nbsp;&nbsp;&nbsp;
+        <img className="contact-icons" src={call} /> { PHONE_NUMBER } &nbsp;&nbsp;&nbsp;
         <img className="contact-icons" src={mail} />
-        <a href="mailto:i.abhishek.dass@gmail.com?Subject=Hello%20Abhishek" target="_top">i.abhishek.dass@gmail.com</a>
+        <a href={EMAIL_ADDRESS_HREF} target="_top">{ EMAIL_ADDRESS }</a>
       </p>
     </div>
   </div>

@@ -1,10 +1,10 @@
 import React from 'react';
-import { trainingArr } from '../../resumeConstant';
+import { TRAININGS_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      trainingArr.map((training, i) => (
+      TRAININGS_ARR.map((training, i) => (
         <li key={`training-${i}`}>
           <p>
             <strong>{ training[0] }</strong> - <i>{ training[1] }</i>

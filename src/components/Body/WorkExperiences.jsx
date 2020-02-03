@@ -1,10 +1,10 @@
 import React from 'react';
-import { workExperiencesArr } from '../../resumeConstant';
+import { WORK_EXPERIENCE_ARR } from '../../resumeConstant';
 
 export default () => (
   <ul>
     {
-      workExperiencesArr.map((workExperience, i) => (
+      WORK_EXPERIENCE_ARR.map((workExperience, i) => (
         <li key={`workExperience-${i}`}>
           <p>
             <strong>{ workExperience[0] }</strong> - { workExperience[1] }
