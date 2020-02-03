@@ -18,28 +18,36 @@ export default () => (
       </p>
     </div>
     <div className="body-left">
-      <h2>Tools</h2>
-      <Tools />
-      <hr />
-      <h2>Languages</h2>
-      <Languages />
-      <hr />
+      <div id="tools" className="resume-section">
+        <h2>Tools</h2>
+        <Tools />
+      </div>
+      <div id="language" className="resume-section">
+        <h2>Languages</h2>
+        <Languages />
+      </div>
     </div>
     <div className="body-right">
-      <h2>Work Experience</h2>
-      <WorkExperiences />
-      <hr />
-      <h2>Projects</h2>
-      <Projects />
-      <hr />
-      <h2>Education</h2>
-      <Educations />
-      <hr />
-      <h2>Trainings and certifications</h2>
-      <Trainings />
-      <hr />
-      <h2>Achievements</h2>
-      <Achievements />
+      <div id="workExperiences" className="resume-section">
+        <h2>Work Experience</h2>
+        <WorkExperiences />
+      </div>
+      <div id="projects" className="resume-section">
+        <h2>Projects</h2>
+        <Projects />
+      </div>
+      <div id="educations" className="resume-section">
+        <h2>Education</h2>
+        <Educations />
+      </div>
+      <div id="trainingCertifications" className="resume-section">
+        <h2>Trainings and certifications</h2>
+        <Trainings />
+      </div>
+      <div id="achievements">
+        <h2>Achievements</h2>
+        <Achievements />
+      </div>
     </div>
   </div>
 );

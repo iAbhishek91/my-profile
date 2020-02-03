@@ -17,7 +17,7 @@ export const toolsArr = [
 export const workExperiencesArr = [
   ['DevOps Engineer', 'May 2019 - Present', 'Lloyds Banking Group', 'London, GB'],
   ['Full-stack Developer', 'May 2017 - Apr 2019', 'Lloyds Banking Group', 'London, GB'],
-  ['Technical Consultant | Test Automation Engineer', 'Feb 2016 - Mar 2017', 'Royal Dutch Shell', 'London, GB'],
+  ['Senior Software Engineer', 'Feb 2016 - Mar 2017', 'Royal Dutch Shell', 'London, GB'],
   ['Software Engineer', 'Jan 2012 - Jan 2016', 'Wipro Technologies', 'India'],
 ];
 
@@ -49,7 +49,7 @@ export const projectsArr = [
     'Application development',
     'Developed multiple web app of different scale including front-end and backend.',
     'HTML, CSS, Javascript, ReactJs, Browser APIs, HTTP, ExpressJS, NodeJS, Jest, Selenium, Jenkins, Nexus, Docker, Proxy',
-  ]
+  ],
 ];
 
 export const educationsArr = [

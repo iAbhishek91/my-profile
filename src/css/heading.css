@@ -54,3 +54,9 @@ h1 {
 #header-table {
   white-space: nowrap;
 }
+
+@media print {
+  #header-container {
+    position: unset;
+  }
+}

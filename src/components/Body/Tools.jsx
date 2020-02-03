@@ -5,14 +5,12 @@ import ToolGraph from './ToolGraph';
 export default () => {
   const tools = toolsArr.map((tool, i) => {
     return (
-      <li key={`tool-${i}`}>
-        <p>
-          <strong>{tool[0]} &nbsp; </strong>
-          <ToolGraph strength={tool[1]} />
-        </p>
-      </li>
+      <p key={`tool-${i}`}>
+        <strong>{tool[0]} &nbsp; </strong>
+        <ToolGraph strength={tool[1]} />
+      </p>
     )
   });
 
-  return <ul>{tools}</ul>;
+  return tools;
 };
