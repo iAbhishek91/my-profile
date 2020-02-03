@@ -1,11 +1,25 @@
+export const skillsArr = [
+  'DevOps',
+  'Automation',
+  'Cloud',
+  'Full stack development',
+  'Software engineering',
+  'QE architect',
+  'Agile',
+  'Problem solving',
+  'Project leader & coach',
+];
+
 export const toolsArr = [
-  ['NodeJS', 8],
+  ['NodeJS', 9],
   ['ReactJS', 7],
   ['ExpressJS', 7],
-  ['Java', 5],
-  ['Groovy', 5],
+  ['Java', 7],
+  ['Groovy', 6],
+  ['Shell script', 5],
   ['Jenkins', 8],
-  ['Ansible', 5],
+  ['Ansible', 6],
+  ['Docker', 6],
   ['Git', 8],
   ['Nexus', 8],
   ['Selenium', 8],
@@ -23,19 +37,14 @@ export const workExperiencesArr = [
 
 export const projectsArr = [
   [
-    'Automation of Nexus',
-    'Automated Nexus (from Sonatype) installation and configuration to \
-    automagically spin-up or update existing Nexus instances.',
-    'Ansible, Groovy, Shell scripts, Linux, Git.'
-  ], [
-    'Automation of Jenkins',
-    'Jenkins installation and configuration are automated starting from\
-    plugins installation, settings, config files, jobs, views and persisting data.',
-    'Groovy, Docker, Git.'
+    'Automation of Nexus and Jenkins',
+    'Automated Nexus (from Sonatype) and Jenkins installation and configuration to \
+    automagically spin-up or update existing Nexus instances and containerized Jenkins',
+    'Ansible, Groovy, Docker swarm, Nexus, Jenkins, Shell scripts, Linux, Git.'
   ], [
     'Jenkins pipeline as code',
     'Developed many multi-stage pipelines using code to achieve CI/CD.',
-    'Jenkins, Job-DSL, Shell scripts, Groovy, Docker, Maven, Node.JS, SSL, Proxy, Networking, WebHooks, Git',
+    'Jenkins, Job-DSL, Shell scripts, Groovy, Docker, Maven, NodeJS, SSL, Proxy, Networking, WebHooks, Git',
   ], [
     'Quality gates and CI',
     'Strategized, authored and integrated quality checks to deploy code without manual intervention.\
@@ -43,8 +52,8 @@ export const projectsArr = [
     'Jenkins, Docker, NodeJS, Nexus, Linters, Jest, Selenium Webdriver, Selenium grid, JMeter, ZAP, SSL, Proxy, Veracode, Git.'
   ], [
     'Micro-services development and deployment',
-    'Authored multiple micro-services with dependencies. For fun & coaching, developed two containerized interdependent micro-services https://hub.docker.com/u/abdas81',
-    'Node.JS, ExpressJS, Docker, Docker Compose, Jenkins, Networking, Unit testing, Mocking, API documentation, Git'
+    'Developed scalable and HA micro-services. For fun & coaching, developed two containerized interdependent micro-services https://hub.docker.com/u/abdas81',
+    'NodeJS, ExpressJS, Docker, Docker Compose, Jenkins, Networking, Unit testing, Mocking, API documentation, Git'
   ], [
     'Application development',
     'Developed multiple web app of different scale including front-end and backend.',

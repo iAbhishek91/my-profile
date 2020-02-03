@@ -80,11 +80,7 @@ body {
     top: 0px;
   }
 
-  #workExperiences {
-    page-break-after: always;
-  }
-
-  #projects {
+  #workExperiences, #projects, #skills {
     page-break-after: always;
   }
 }

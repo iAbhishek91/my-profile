@@ -2,6 +2,7 @@ import React from 'react';
 import '../../css/body.css';
 import '../../css/body.css';
 import Tools from './Tools';
+import Skills from './Skills';
 import Educations from './Educations';
 import Languages from './Languages';
 import WorkExperiences from './WorkExperiences';
@@ -14,10 +15,14 @@ export default () => (
     <div className="about">
       <h2>About</h2>
       <p id="about-text">
-        Self-motivated full stack NodeJs developer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high-performance quality software. Experienced and expertise in DevOps practices and Agile methodologies.
+        Self-motivated computer engineer with more than eight years of experience in software development and operations. Leading and helping clients in delivering high performance, high quality software. Experienced and expertise in DevOps practices and Agile methodologies.
       </p>
     </div>
     <div className="body-left">
+      <div id="skills" className="resume-section">
+        <h2>Skills</h2>
+        <Skills />
+      </div>
       <div id="tools" className="resume-section">
         <h2>Tools</h2>
         <Tools />
