@@ -50,14 +50,14 @@ yarn deploy
 npm run deploy
 ```
 
-4. Changes need to be done in Github
+5. Changes need to be done in Github
 
 - In github, create a empty repo.
 - Go to settings of that repo and navigate to github pages.
 - Select gh-pages branch and follow the wizard to complete the steps.
 - Git hub will give you an URL where your site is published.
 
-5. Changes in the Repo (at minimal)
+6. Changes in the Repo (at minimal)
 
 - Every change is to be made in the `src/resumeConstant.js`
 - Change your photo.
