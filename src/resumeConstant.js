@@ -20,6 +20,7 @@ export const SKILLS_ARR = [
   'Automation',
   'Cloud',
   'Full stack development',
+  'Network engineering',
   'Software engineering',
   'QE architect',
   'Agile',
@@ -40,9 +41,9 @@ export const TOOLS_ARR = [
   ['Git', 8],
   ['Nexus', 8],
   ['Selenium', 8],
-  ['Linux', 3],
-  ['Networking', 4],
-  ['AWS', 2],
+  ['Linux', 4],
+  ['Networking', 5],
+  ['AWS', 4],
 ];
 
 export const WORK_EXPERIENCE_ARR = [
