@@ -38,7 +38,7 @@ export const TOOLS_ARR = [
   ['AWS', 5],
   ['Jenkins', 8],
   ['Ansible', 6],
-  ['Docker', 6],
+  ['Docker', 8],
   ['Kubernetes', 4],
   ['Git', 8],
   ['Nexus', 8],
@@ -59,7 +59,7 @@ export const PROJECTS_ARR = [
     'Infrastructure as code',
     'Automated EC2, RDS, DynamoDB, S3 and other configuration such as security groups, \
     auto-scaling group and VPC etc using custom framework using AWS SDK',
-    'AWS, Networking, Cloud architecture, NodeJS',
+    'AWS, Networking, Cloud architecture, NodeJS.',
   ], [
     'Automation of Nexus and Jenkins',
     'Automated Nexus (from Sonatype) and Jenkins installation and configuration to \
@@ -96,16 +96,20 @@ export const LANGUAGES_ARR = [
 
 export const TRAININGS_ARR = [
   [
-    'AWS concepts, AWS core',
-    'Linux academy'
+    'AWS Solution Architect Associate',
+    'Udemy',
   ],
   [
-    'Docker, Docker Swarm, Ansible, Advance Javascript, NodeJS, Groovy - beginners to advance',
+    'AWS concepts, AWS core',
+    'Linux academy',
+  ],
+  [
+    'Kubernetes, Docker, Docker Swarm, Ansible, Advance Javascript, NodeJS, Groovy - beginners to advance',
     'Udemy',
   ],
   [
     'Agile Edge - Green belt',
-    'Shell Open University'
+    'Shell Open University',
   ]
 ];
 
