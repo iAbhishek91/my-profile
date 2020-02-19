@@ -35,15 +35,16 @@ export const TOOLS_ARR = [
   ['Java', 7],
   ['Groovy', 6],
   ['Shell script', 5],
+  ['AWS', 5],
   ['Jenkins', 8],
   ['Ansible', 6],
   ['Docker', 6],
+  ['Kubernetes', 4],
   ['Git', 8],
   ['Nexus', 8],
   ['Selenium', 8],
   ['Linux', 4],
   ['Networking', 5],
-  ['AWS', 4],
 ];
 
 export const WORK_EXPERIENCE_ARR = [
@@ -55,6 +56,11 @@ export const WORK_EXPERIENCE_ARR = [
 
 export const PROJECTS_ARR = [
   [
+    'Infrastructure as code',
+    'Automated EC2, RDS, DynamoDB, S3 and other configuration such as security groups, \
+    auto-scaling group and VPC etc using custom framework using AWS SDK',
+    'AWS, Networking, Cloud architecture, NodeJS',
+  ], [
     'Automation of Nexus and Jenkins',
     'Automated Nexus (from Sonatype) and Jenkins installation and configuration to \
     automagically spin-up or update existing Nexus instances and containerized Jenkins',
