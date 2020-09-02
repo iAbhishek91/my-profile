@@ -35,54 +35,53 @@ export const TOOLS_ARR = [
   ['Java', 7],
   ['Groovy', 6],
   ['Shell script', 5],
-  ['AWS', 5],
   ['Jenkins', 8],
   ['Ansible', 6],
   ['Docker', 8],
-  ['Kubernetes', 4],
+  ['Kubernetes', 9],
+  ['Helm', 8],
   ['Git', 8],
   ['Nexus', 8],
   ['Selenium', 8],
-  ['Linux', 4],
+  ['Linux', 6],
   ['Networking', 5],
+  ['AWS', 5],
 ];
 
 export const WORK_EXPERIENCE_ARR = [
-  ['DevOps Engineer', 'May 2019 - Present', 'Lloyds Banking Group', 'London, GB'],
-  ['Full-stack Developer', 'May 2017 - Apr 2019', 'Lloyds Banking Group', 'London, GB'],
+  ['DevOps Engineer', 'Apr 2019 - Present', 'Lloyds Banking Group', 'London, GB'],
+  ['Full-stack Developer', 'Apr 2017 - Apr 2019', 'Lloyds Banking Group', 'London, GB'],
   ['Senior Software Engineer', 'Feb 2016 - Mar 2017', 'Royal Dutch Shell', 'London, GB'],
   ['Software Engineer', 'Jan 2012 - Jan 2016', 'Wipro Technologies', 'India'],
 ];
 
 export const PROJECTS_ARR = [
   [
-    'Infrastructure as code',
-    'Automated EC2, RDS, DynamoDB, S3 and other configuration such as security groups, \
-    auto-scaling group and VPC etc using custom framework using AWS SDK',
-    'AWS, Networking, Cloud architecture, NodeJS.',
+    'Administrator and maintainer on Live K8s cluster',
+    'Admin and maintainer of On-premise kubernetes cluster, monitoring and alerts, backup and restore, sys admin of servers',
+    'Kubernetes, Helm, Ansible, RHEL7, Shell scripting, Networking'
   ], [
-    'Automation of Nexus and Jenkins',
-    'Automated Nexus (from Sonatype) and Jenkins installation and configuration to \
-    automagically spin-up or update existing Nexus instances and containerized Jenkins',
-    'Ansible, Groovy, Docker swarm, Nexus, Jenkins, Shell scripts, Linux, Git.'
+    'Automation of Nexus',
+    'Installation and configuration of Nexus (from Sonatype) automation using Ansible',
+    'Ansible, Groovy, Nexus, Jenkins, Shell scripts, Linux, Git.'
   ], [
-    'Jenkins pipeline as code',
-    'Developed many multi-stage pipelines using code to achieve CI/CD.',
-    'Jenkins, Job-DSL, Shell scripts, Groovy, Docker, Maven, NodeJS, SSL, Proxy, Networking, WebHooks, Git',
-  ], [
-    'Quality gates and CI',
-    'Strategized, authored and integrated quality checks to deploy code without manual intervention.\
-    Authored functional and API test framework and achieved parallelism.',
-    'Jenkins, Docker, NodeJS, Nexus, Linters, Jest, Selenium Webdriver, Selenium grid, JMeter, ZAP, SSL, Proxy, Veracode, Git.'
+    'Jenkins as code',
+    'Installed, configured and Jenkins along with many multi-stage pipelines using code to achieve CI/CD.',
+    'Jenkins, Jenkins API, Job-DSL, Shell scripts, Groovy, Docker Kubernetes, NodeJS, SSL, Proxy, Networking, WebHooks, Git',
   ], [
     'Micro-services development and deployment',
     'Developed scalable and HA micro-services. For fun & coaching, developed two containerized interdependent micro-services https://hub.docker.com/u/abdas81',
     'NodeJS, ExpressJS, Docker, Docker Compose, Jenkins, Networking, Unit testing, Mocking, API documentation, Git'
   ], [
     'Application development',
-    'Developed multiple web app of different scale including front-end and backend.',
+    'Developed multiple web app of different scale including front-end and backend using NodeJS.',
     'HTML, CSS, Javascript, ReactJs, Browser APIs, HTTP, ExpressJS, NodeJS, Jest, Selenium, Jenkins, Nexus, Docker, Proxy',
-  ],
+  ], [
+    'Quality Engineering',
+    'Strategized, authored and integrated quality checks to deploy code without manual intervention.\
+    Authored functional and API test framework.',
+    'Jenkins, Docker, NodeJS, Nexus, Linters, Jest, Selenium Webdriver, Selenium grid, JMeter, ZAP, SSL, Proxy, Veracode, Git.'
+  ]
 ];
 
 export const EDUCATION_ARR = [
@@ -96,6 +95,14 @@ export const LANGUAGES_ARR = [
 
 export const TRAININGS_ARR = [
   [
+    'Certified Kubernetes Administrator',
+    'CNCF',
+  ],
+  [
+    'Certified Kubernetes Application Developer',
+    'CNCF',
+  ],
+  [
     'AWS Solution Architect Associate',
     'Udemy',
   ],
@@ -106,10 +113,6 @@ export const TRAININGS_ARR = [
   [
     'Kubernetes, Docker, Docker Swarm, Ansible, Advance Javascript, NodeJS, Groovy - beginners to advance',
     'Udemy',
-  ],
-  [
-    'Agile Edge - Green belt',
-    'Shell Open University',
   ]
 ];
 
